@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>100</x>
+      <y>60</y>
+      <w>340</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>:MineSweeper
+
+--
+
+
+_+ n: int_
++ answer: int
++ grid: String[][]
++ theBombs: String[][]
++ bombAmount: int
++ xCord: int[]
++ yCord: int[]
++ scanner: Scanner
+
+
+--
++ menu(): void
++ guessSpot(): void 
++ makeGrid(): void 
++ setX(gridSize: int): void
++ setY(gridSize: int): void
++ repeatCheck(): void
++ setBombs(): void 
++ printGrid(n:int): void
++ printBombGrid(): void
++ guessCheck( row: int, col:int): void 
++ markBomb(): void 
++ winGame(): void 
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
